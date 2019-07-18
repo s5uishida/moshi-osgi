@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: A modern JSON library for Kotlin and Java
+Bundle-SymbolicName: moshi-osgi
+Bundle-Version: 1.7.0
+Automatic-Module-Name: moshi-osgi
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: okio;version="[1.15.0,2.0.0)"
+Bundle-Vendor: com.squareup.moshi
+Export-Package: com.squareup.moshi;version="1.7.0"
+Require-Bundle: org.apache.servicemix.bundles.jsr305;bundle-version="3.0.2"
